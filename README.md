@@ -2,7 +2,11 @@
 This script will automate replacing the steam deck startup animation :)
 
 ***
-**You will need to be in ROOT user for this to work fully. Caution is highly advised.**
+**If you have trouble with the deck user, you should login as root user using this command**
+
+```sudo su```
+
+You will need to be in ROOT user for this to work fully. Caution is highly advised
 
 You can set the root password using this command
 
@@ -22,10 +26,6 @@ You can set the root password using this command
 Download the file to your steamdeck via this url.
 
 <a href="https://raw.githubusercontent.com/JohnGrey0/steam_deck_webm/main/automation.sh">Raw script file for easier downloading.</a>
-
-Make sure you are root user using this command
-
-```sudo su```
 
 Add the Google Drive ID of the webm you want as an argument.
 
