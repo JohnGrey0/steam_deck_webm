@@ -19,6 +19,10 @@ You can set the root password using this command
 
 # How to run 
 
+Download the file to your steamdeck via this url.
+
+<a href="https://raw.githubusercontent.com/JohnGrey0/steam_deck_webm/main/automation.sh">Raw script file for easier downloading.</a>
+
 Make sure you are root user using this command
 
 ```sudo su```
