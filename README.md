@@ -1,6 +1,14 @@
 # steam_deck_webm
 This script will automate replacing the steam deck startup animation :)
 
+***
+**You will need to be in ROOT user for this to work fully. Caution is highly advised.**
+
+You can set the root password using this command
+
+``` passwd ```
+***
+
 # List of known google drive IDs for webm downloads
 | Google Drive ID | Description | Creator |
 | ----------- | ----------- | ----------- |
@@ -11,7 +19,11 @@ This script will automate replacing the steam deck startup animation :)
 
 # How to run 
 
-Add the Google Drive ID of the webm you want. 
+Make sure you are root user using this command
+
+```sudo su```
+
+Add the Google Drive ID of the webm you want as an argument.
 
 The below example will give you the handheld history startup animation.
 

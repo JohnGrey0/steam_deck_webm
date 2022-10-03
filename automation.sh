@@ -22,11 +22,6 @@ backup_original_deck_webm () {
 }
 
 download_new_startup_webm () {
-    # 1YvDWfegL7FZElhsgPONZ0CF0d9bhzjtk - Handheld History
-    # 1BMRJZAQW3D1lH8iyIjwTIkW2OW2btsUR - Pin/Profile/Non-Home Transition
-    # 1yDAOcjYpSuiNwC0hfnBrWQDYLIqoWh4B - High Octane Handheld History
-    # 1xUM4pGYd5VkHqYPKibpUMd1HD_Fih2Zr - Gameboy Steamdeck Into
-
     # Install pip and gdown, download webm, replace current file with new
     echo "Installing pip through ensurepip"
     python3 -m ensurepip --default-pip &> /dev/null
@@ -51,8 +46,7 @@ move_new_file_to_directory() {
 update_css () {
     # Update the css file
     echo "Replacing old css with new css"
-    # sed -i "s/$old_css/$new_css/" $css_loc &> /dev/null
-    sed -i "" "s/$old_css/$new_css/" $css_loc &> /dev/null
+    sed -i "s/$old_css/$new_css/" $css_loc &> /dev/null
     check_ret_code
     echo "Truncating library css file"
     truncate -s 38492 $css_loc &> /dev/null
