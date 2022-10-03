@@ -1,7 +1,8 @@
 # deck_startup.webm file names/locations
+NOW=$(date +"%Y-%m-%d-%H-%M-%S")
 webm_loc="/home/deck/.local/share/Steam/steamui/movies/"
 deck_startup_loc=$webm_loc"deck_startup.webm"
-deck_startup_backup_loc=$webm_loc"BACKUP_deck_startup.webm"
+deck_startup_backup_loc=$webm_loc"BACKUP_deck_startup.$NOW.webm"
 # CSS file names/locations/strings
 css_loc="/home/deck/.local/share/Steam/steamui/css/library.css"
 old_css="video{flex-grow:0;width:300px;height:300px;z-index:10}"
